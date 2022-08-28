@@ -9,7 +9,7 @@ public class SpringBootDemoprojApplication {
 
 	@GetMapping("/hi")
 	public String home() {
-		return "Welcome to Azure platform";
+		return "Welcome to Azure platform spring boot project" ;
 	}
 	
 	public static void main(String[] args) {
